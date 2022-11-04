@@ -1,0 +1,61 @@
+*{padding: 0; margin: 0; color: white;}
+
+body{
+    background: #201b2d;
+}
+
+/* Estilo da box do relogio. */
+
+.boxTimer{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    width: 80%;
+}
+
+/* Estilo dos botoes no relogio. */
+
+.timer{
+    text-align: center;
+    font-size: 6vw;
+}
+
+button{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+
+    margin-top: 10%;
+    margin-left: 15%;
+
+    text-align: center;
+    font-size: 2vw;
+    outline: none;
+
+    background: #191622;
+    border: 1vw ;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #14121b;
+}
+
+button:active{
+    background: #110f16;
+}
+
+.bInit{
+    border: 0.3vw green solid;
+    
+}
+
+.bStop{
+    border: 0.3vw grey solid;
+}
+
+.bReset{
+    border: 0.3vw red solid;
+}
